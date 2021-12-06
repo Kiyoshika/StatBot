@@ -6,6 +6,6 @@ A Discord bot written in C# to do statistical / mathematical operations such as 
 
 **Other OS:** Not sure. If you're on Windows, you can probably install it via Visual Studio.
 ### Installing Discord Dependencies
-After getting SDK set up, install Discord's .NET library [here](https://docs.stillu.cc/guides/getting_started/installing.html?tabs=dotnet-cli%2Ccore2-1) (NOTE: use the dotnet CLI if you're on Linux)
+Discord dependencies should already be included in bin/ but just incase, follow [this](https://docs.stillu.cc/guides/getting_started/installing.html?tabs=dotnet-cli%2Ccore2-1)  for installing Discord's .NET library (NOTE: use the dotnet CLI if you're on Linux)
 ### Building Project
 After SDK + dependencies are installed, run `dotnet build`. If succesful, now you can contribute!
