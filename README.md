@@ -2,7 +2,7 @@
 A Discord bot written in C# to do statistical / mathematical operations such as sampling, integrating, etc.
 ## Project Setup
 ### Getting the .NET SDK
-**Majaro Linux:** Follow [this](https://dev.to/kelvinmai/how-to-install-dotnet-core-in-manjaro-linux-590a) guide to installing .NET core SDK on Manjaro Linux
+**Manjaro Linux:** Follow [this](https://dev.to/kelvinmai/how-to-install-dotnet-core-in-manjaro-linux-590a) guide to installing .NET core SDK on Manjaro Linux
 
 **Other OS:** Not sure. If you're on Windows, you can probably install it via Visual Studio.
 ### Installing Discord Dependencies
