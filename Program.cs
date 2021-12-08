@@ -30,7 +30,6 @@ public class Program
             .BuildServiceProvider();
         
 
-        // delete this (read from file instead)
         string token = File.ReadAllText("token.cfg");
 
         await RegisterCommandsAsync();
