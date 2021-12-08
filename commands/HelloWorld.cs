@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+using Discord;
 using Discord.Commands;
 
 public class HelloWorld : ModuleBase<SocketCommandContext>
@@ -11,6 +12,6 @@ public class HelloWorld : ModuleBase<SocketCommandContext>
     [Command("say")]
     public async Task say()
     {
-        ReplyAsync("Hello from StatBot");
+        await Context.Channel.SendMessageAsync("hello");
     }
 }
