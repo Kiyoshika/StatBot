@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/zach/Desktop/Development/statbot/statbot.csproj": {}
+    "/home/zach/Desktop/Development/StatBot/statbot.csproj": {}
   },
   "projects": {
-    "/home/zach/Desktop/Development/statbot/statbot.csproj": {
+    "/home/zach/Desktop/Development/StatBot/statbot.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/zach/Desktop/Development/statbot/statbot.csproj",
+        "projectUniqueName": "/home/zach/Desktop/Development/StatBot/statbot.csproj",
         "projectName": "statbot",
-        "projectPath": "/home/zach/Desktop/Development/statbot/statbot.csproj",
+        "projectPath": "/home/zach/Desktop/Development/StatBot/statbot.csproj",
         "packagesPath": "/home/zach/.nuget/packages/",
-        "outputPath": "/home/zach/Desktop/Development/statbot/obj/",
+        "outputPath": "/home/zach/Desktop/Development/StatBot/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/zach/.nuget/NuGet/NuGet.Config"
@@ -41,6 +41,14 @@
             "Discord.Net": {
               "target": "Package",
               "version": "[2.4.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.0, )"
             }
           },
           "imports": [
