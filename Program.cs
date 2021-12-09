@@ -58,7 +58,14 @@ public class Program
         if (message.HasStringPrefix("!", ref argPos))
         {
             var result = await _commands.ExecuteAsync(context, argPos, _services);
-            if (!result.IsSuccess) Console.WriteLine(result.ErrorReason);
+            if (!result.IsSuccess && result.ErrorReason == "Failed to parse Int32.")
+            {
+                await context.Channel.SendMessageAsync("Error: I only accept numbers, bruh.");
+            }
+            else
+            {
+                Console.WriteLine(result.ErrorReason);
+            }
         }
     }
 }
