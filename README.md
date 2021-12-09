@@ -13,9 +13,16 @@ All dependnencies should be installed within the solution, but if you're recreat
 # Command List
 Here's a list of commands sorted alphabetically.
 
-Contents:
+**Contents:**
 * Basic Aggregates:
     * [diff](#diff)
+    * [max](#max)
+    * [mean](#mean)
+    * [min](#min)
+    * [prod](#prod)
+    * [sd](#sd)
+    * [sum](#sum)
+    * [var](#var)
 
 ## !diff
 Take the difference of a list of numbers.
