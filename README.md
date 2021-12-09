@@ -10,6 +10,9 @@ All dependnencies should be installed within the solution, but if you're recreat
 * [Microsoft.Extensions.DependencyInjection](https://www.nuget.org/packages/Microsoft.Extensions.DependencyInjection)
 * [Discord .NET API](https://docs.stillu.cc/guides/getting_started/installing.html?tabs=vs-install%2Ccore2-1)
 
+### Building and Running Project
+The [dotnet CLI](https://docs.microsoft.com/en-us/dotnet/core/tools/) is used to build/run projects. The build seems to fail when trying to run it in Visual Studio for unknown reasons, so dotnet CLI is the recommended approach for building/running the bot.
+
 # Command List
 Here's a list of commands sorted alphabetically.
 
