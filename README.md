@@ -13,6 +13,10 @@ All dependnencies should be installed within the solution, but if you're recreat
 # Command List
 Here's a list of commands sorted alphabetically.
 
+Contents:
+* Basic Aggregates:
+    * [diff](#diff)
+
 ## !diff
 Take the difference of a list of numbers.
 ### Usage
