@@ -62,7 +62,7 @@ Take the median of a list of numbers.
 ### Example
 `!median 5 3 8 4 7 5 2 3`
 
-Output: `Mean: 4.5`
+Output: `Median: 4.5`
 
 ## !min
 Take the minimum of a list of numbers.
