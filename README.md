@@ -21,6 +21,7 @@ Here's a list of commands sorted alphabetically.
     * [diff](#diff)
     * [max](#max)
     * [mean](#mean)
+    * [median](#median)
     * [min](#min)
     * [prod](#prod)
     * [sd](#sd)
@@ -50,9 +51,18 @@ Take the mean of a list of numbers.
 ### Usage
 `!mean <numeric args...>`
 ### Example
-`!min 5 3 8 4 7 5 2 3`
+`!mean 5 3 8 4 7 5 2 3`
 
 Output: `Mean: 4.625`
+
+## !median
+Take the median of a list of numbers.
+### Usage
+`!median <numeric args...>`
+### Example
+`!median 5 3 8 4 7 5 2 3`
+
+Output: `Mean: 4.5`
 
 ## !min
 Take the minimum of a list of numbers.
