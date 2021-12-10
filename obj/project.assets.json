@@ -1645,19 +1645,19 @@
     ]
   },
   "packageFolders": {
-    "/home/zach/.nuget/packages/": {}
+    "/Users/zweaver/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/zach/Desktop/Development/StatBot/statbot.csproj",
+      "projectUniqueName": "/Users/zweaver/Desktop/Development/CSharp/StatBot/statbot.csproj",
       "projectName": "statbot",
-      "projectPath": "/home/zach/Desktop/Development/StatBot/statbot.csproj",
-      "packagesPath": "/home/zach/.nuget/packages/",
-      "outputPath": "/home/zach/Desktop/Development/StatBot/obj/",
+      "projectPath": "/Users/zweaver/Desktop/Development/CSharp/StatBot/statbot.csproj",
+      "packagesPath": "/Users/zweaver/.nuget/packages/",
+      "outputPath": "/Users/zweaver/Desktop/Development/CSharp/StatBot/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/zach/.nuget/NuGet/NuGet.Config"
+        "/Users/zweaver/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -1704,18 +1704,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[6.0.0, 6.0.0]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
       }
     }
   }
